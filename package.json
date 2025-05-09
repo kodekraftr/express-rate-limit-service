@@ -1,5 +1,5 @@
 {
-  "name": "express-template",
+  "name": "express-rate-limit-service",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,10 +7,10 @@
     "start": "node index.js",
     "prepare": "husky install"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["express"],
+  "author": "Aman Kumar",
+  "license": "MIT",
+  "description": "Express application to enhance security, logging, and rate limiting",
   "dependencies": {
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
